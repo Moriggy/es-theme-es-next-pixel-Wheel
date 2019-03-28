@@ -1,0 +1,46 @@
+<!--
+#############################################
+####		  Theme Next Pixel			 ####
+####	   mod by Moriggy MasOS Team	 ####
+####									 ####
+####		Tipo de vista Legacy		 ####
+#############################################
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+	<include>./../pixel.xml</include>
+
+	<!-- #### Fondo y logo menu principal #### -->
+	
+	<view name="system">
+
+		<image name="logo">
+		
+			<path>./data/logo.png</path>
+			
+		</image>
+		
+	</view>
+
+	<!-- #### Logo gamelist #### -->
+	
+	<view name="basic, detailed, video">
+		
+		<image name="logo">
+		
+			<path>./data/logo.png</path>
+			<pos>0.76 0.05</pos>
+			<maxSize>0.3 0.3</maxSize>
+			
+		</image>
+		
+		<rating name="md_rating">
+			<filledPath>./data/icon_filled.svg</filledPath>
+			<unfilledPath>./data/icon_empty.svg</unfilledPath>
+		</rating>
+	
+	</view>
+	
+</theme>
